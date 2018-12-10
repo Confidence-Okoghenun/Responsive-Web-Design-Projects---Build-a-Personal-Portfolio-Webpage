@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+body #navbar {
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+body #navbar ul {
+  margin: 0;
+  color: #fff;
+  display: flex;
+  background: #009688;
+  justify-content: flex-end;
+}
+body #navbar ul li {
+  margin: 10px 20px;
+  list-style-type: none;
+}
+body #navbar ul li a {
+  all: unset;
+  cursor: pointer;
+}
+body main #welcome-section {
+  margin: 0 10%;
+  margin-top: 50vh;
+  font-size: 1.3em;
+  min-height: 100vh;
+}
+body main #projects {
+  display: flex;
+  flex-wrap: wrap;
+  background: #009688;
+  justify-content: space-between;
+}
+body main #projects .project-tile {
+  border: 2px solid white;
+  margin: 20px;
+}
+body main #projects .project-tile-image img {
+  width: 160px;
+}
+
+/*# sourceMappingURL=main.css.map */
