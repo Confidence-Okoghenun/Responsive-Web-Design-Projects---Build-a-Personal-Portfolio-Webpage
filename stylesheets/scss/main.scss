@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
@@ -23,6 +26,8 @@ body {
   }
   main {
     #welcome-section {
+      background-size: cover;
+      background-repeat: no-repeat;
       background-image: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.37)), url('/image/cover1.jpg');
       .welcome-contents {
         color: white;
